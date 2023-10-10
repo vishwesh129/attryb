@@ -17,7 +17,7 @@ const Login = () => {
 
     const handleLogin = () => {
         const user = { email, password }
-        fetch("https://easy-pink-walkingstick-tam.cyclic.cloud/user/login", {
+        fetch("https://localhost:3333/user/login", {
             method: "POST",
             headers: {
                 "content-type": "application/json"
